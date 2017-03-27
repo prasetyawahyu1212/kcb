@@ -1,0 +1,307 @@
+html,body{
+	background-image: url('../img/pattern.jpg');
+}
+.header{
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	height: 135px;
+	background-color: #002366;
+}
+.panel{
+	border-radius: 0px;
+}
+.panel-heading{
+	border-radius: 0px;
+}
+.logo img {
+    width: 254px;
+    height: 105px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.header .fixed{  /*memberi padding atas pada header link*/
+	margin-top: 59px;
+	width: 100%;
+}
+.header-link{
+	color: #DD9822;
+    background-color: #002366;
+}
+.header-link ul {
+    list-style-type: none;
+}
+.header-link li {
+    float: right;
+}
+
+.header-link li a {
+    color: #DD9822;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.header-link li a:hover {
+	padding-bottom: 5px;
+	color: #fff;
+	/*border-bottom: 3px solid #DD9822;*/
+}
+.navbar{
+    margin-bottom: 3px; 
+}
+.navbar-default{
+	background-color:#DD9822;
+	color: black; 
+	border-color:#DD9822;
+}
+.navbar{
+	min-height: 32px;
+	border-radius: 0px;
+}
+.nav li {
+    position: relative;
+    display: block;
+    color: #1cc394;
+    padding-right: 12px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #002366;
+	font-family: sans-serif;
+	left: 20px;
+	font-weight: bold;
+	padding: 10px
+}.navbar-default .navbar-nav>li>a:hover{
+	color: #fff;
+	font-family: sans-serif;
+	left: 20px;
+	font-weight: bold;
+	padding: 10px
+}
+.navbar-default .navbar-toggle{
+	border-color: #002366;
+	background-color: #002366;
+}
+.navbar-default .icon-bar{
+	border:1px white solid;
+}
+.navbar-default .navbar-toggle:hover{
+	background-color: #002366;
+}
+.navbar-default .navbar-toggle:focus{
+	background-color: #002366;
+}
+.navbar-default .navbar-brand {
+    color: #002366;
+    font-size: 31px;
+    font-family: sans-serif;
+}
+.navbar-default .navbar-brand:hover {
+    color: #002366;
+    font-size: 31px;
+    font-family: sans-serif;
+}
+.dropdown-menu{
+	margin-left: 20px;
+	border-color: #DD9822;
+	background-color: #DD9822;
+	
+}
+.dropdown-menu li a{
+	color: #002366;
+}
+.dropdown-menu li a:hover{
+	border-color: #DD9822;
+	background-color: #DD9822;
+	color: #fff;
+}
+.simbol{
+	position: absolute;
+	margin-top: 11px;
+	left: 12px;
+}
+.container{
+	top: -50px;
+	background-color:#eeeded;
+}
+.col-md-3{
+	padding: 1px 1px 1px 1px;
+}
+.col-md-6{
+	padding: 1px 1px 1px 1px;
+}
+.col-md-9{
+	padding: 1px 1px 1px 1px;
+}
+.isi .kiri{
+	left: -24px;
+}
+.isi .kanan{
+	right: -12px;
+}
+.sidebar{
+
+}
+.panel-primary {
+    border-color: #002366;
+    margin-bottom: 6px;
+}
+.panel-primary .panel-heading {
+    color: #fff;
+    background-color: #002366;
+    border-color: #002366;
+}
+.info-sekolah li{
+	list-style:none;
+	border-bottom: 2px; 
+}
+.info-sekolah li a{
+	text-decoration: none;
+	color: #002366;
+    /*font-weight: bold;*/
+    font-size: 15px;
+	left: -20px;
+}
+.info-sekolah li a:hover{
+	text-decoration: none;
+	color: #000;
+    /*font-weight: bold;*/
+    font-size: 15px;
+	left: -20px;
+}
+.main{
+	position: relative;
+}
+
+.btn-primary{
+	background-color: #002366;
+	border:1px solid #002366;
+}
+.btn-primary:hover{
+	background-color: #002366;
+	border:1px solid #002366;
+}
+.btn-primary:focus{
+	background-color: #002366;
+	border:1px solid #002366;
+}
+.footer{
+	 height: 50px;
+    background-color: #DD9822;
+    border-radius: 4px
+}
+.footer .text{
+	text-align: center;
+    font-size: 15px;
+    padding-top: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+.footer .text a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*==================== galery style ===============*/
+
+.galery{
+	
+} 
+.galery img{
+	width: 100%;
+	height: 110px;
+	border-radius: 4px;
+}
+.galery-contain{
+	margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    padding: 9px;
+}
+.galery-contain li{
+	list-style-type: none;
+}
+.galery-description{
+	text-align: center;
+	margin-top: 12px;
+	color: #000;
+}
+
+.berita{
+	
+} 
+.berita-contain{
+	border-bottom: 3px solid #eeeded;
+	padding: 10px 35px 10px 35px;
+}
+
+.berita img{
+	width: 90%;
+	height: 110px;
+	border-radius: 4px;
+}
+.berita .waktu-berita{
+	color: #676a6c;
+}
+.judul-berita {
+    padding-top: 13px;
+    font-weight: bold;
+}
+.judul-berita a{
+	color: #000;
+	text-decoration: none;
+	font-size: 17px;
+}
+.judul-berita a:hover{
+	color: #002366;
+	text-decoration: none;
+}
+.berita-pagination{
+	margin-bottom: 54px;
+}
+
+/*================berita lengkap==================*/
+
+.berita-lengkap{
+}
+.berita-lengkap img{
+	width: 300px;
+	height: 200px;
+	float: left;
+	padding-right: 5px;
+}
+.berita-lengkap-judul{
+	border-bottom: 3px solid #eee;
+	padding-bottom: 17px;
+	margin-bottom: 5px;
+}
+.berita-lengkap-isi{
+	align: center;
+}
+.btn-berita-navigasi{
+	margin-top:-16px;
+}
+
+.peta{
+	background-color: #fff;
+	height: 300px;
+}
+.kontak-box{
+	margin-bottom: 10px;
+}
+.kontak-pesan{
+	padding-top: 34px;
+}
+.kontak-lokasi{
+	margin-top: 20px;
+}
+.kontak-pesan textarea{
+	height: 70px;
+}
+
+.kontak-lokasi span{
+	color: #002366;
+}
+.kontak-detail{
+	margin-top: 10px;
+	font-size: 15px;
+}

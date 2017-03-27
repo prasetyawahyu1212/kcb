@@ -1,0 +1,3 @@
+salin folder kcb di xampp/htdocs
+buat database top_index
+import file top_index.sql ke database top_index

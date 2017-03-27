@@ -1,0 +1,87 @@
+html,body{
+	background-color: #000;
+}
+.container{
+	background-color: #ddd;
+	padding: 0px;
+}
+.red{
+	background-color: red;
+}
+.texr-red{
+	color: red
+}
+.banner{
+	width: 100%;
+	height: 100px;
+}
+.navbar {
+    position: relative;
+    min-height: 40px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+    border-radius: 0px;
+}
+.navbar-nav>li>a {
+	padding: 10px;
+}
+.row{
+	margin: 0px;
+	padding: 0px;
+}
+.content{
+	padding: 5px 5px 5px 5px;
+}
+.col-md-8, .col-md-4{
+	padding: 1px;
+}
+.panel-danger {
+    border-color: #ebccd1;
+}
+.panel {
+    margin: 1px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.navbar-form {
+     margin-top: 3px; 
+     margin-bottom: 2px; 
+}
+
+
+#custom_carousel .item {
+            color: #000;
+            background-color: #eee;
+            padding: 20px 0;
+        }
+        
+        #custom_carousel .controls {
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 0;
+            margin: 0;
+            white-space: nowrap;
+            text-align: center;
+            position: relative;
+            background: #ddd
+        }
+        
+        #custom_carousel .controls li {
+            display: table-cell;
+            width: 1%;
+            max-width: 90px
+        }
+        
+        #custom_carousel .controls li.active {
+            background-color: #eee;
+            border-top: 3px solid orange;
+        }
+        
+        #custom_carousel .controls a small {
+            overflow: hidden;
+            display: block;
+            font-size: 10px;
+            margin-top: 5px;
+            font-weight: bold
+        }
